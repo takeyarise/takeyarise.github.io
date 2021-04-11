@@ -7,8 +7,6 @@
 [Menu Test]()
 
   * # サブメニュー見出し
-  * [sub Test](test.md)
-
-[gimmick: math]()
+  * [Test](test.md)
 
 [gimmick:theme](bootstrap)
