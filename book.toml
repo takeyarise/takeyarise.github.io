@@ -1,5 +1,29 @@
 [book]
-authors = []
-language = "en"
+title = "KTPage"
+authors = ["K. Takenaka"]
+description = "Home page"
+language = "ja"
 multilingual = false
 src = "src"
+
+[build]
+use-default-preprocessors = false
+
+# [preprocessor.index]
+
+[preprocessor.links]
+
+[preprocessor.katex]
+after = ["links"]
+
+[output.html]
+# mathjax-support = true
+
+[output.html.fold]
+enable = false
+level = 0
+
+[output.html.search]
+enable = false
+
+# [output.html.redirect]
