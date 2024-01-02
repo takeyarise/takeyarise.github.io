@@ -1,5 +1,5 @@
 [book]
-title = "KTPage"
+title = "KT Page"
 authors = ["K. Takenaka"]
 description = "Home page"
 language = "ja"
@@ -19,8 +19,12 @@ after = ["links"]
 [output.html]
 # mathjax-support = true
 
-[output.html.fold]
+[output.html.print]
 enable = false
+page-break = true
+
+[output.html.fold]
+enable = true
 level = 0
 
 [output.html.search]
